@@ -1,0 +1,49 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        padding: 10px;
+    }
+    .left {
+        justify-content: center;
+    }
+    .left .address h3 {
+        font-size: 16px;
+    }
+    .left .address {
+        padding: 10px;
+    }
+    .left .address p {
+        font-size: 12px;
+    }
+    .left .logo {
+        padding: 10px;
+    }
+    .center button {
+        padding: 10px;
+    }
+    .right {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        background-color: white;
+    }
+    .shop {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .shop2 div {
+        flex-basis: 25%;
+    }
+    .shop3 div {
+        flex-basis: 25%;
+    }
+    .product {
+    margin-left: 0;
+    gap: 10px;
+    justify-content: center;
+  }
+
+}
